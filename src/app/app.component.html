@@ -1,0 +1,51 @@
+<!--<label for="dropdown">Select Brand Name : </label>
+<select id="dropdown" [(ngModel)]="selectedValue">
+  <option *ngFor="let item of hotelDataList" [value]="item.id">{{ item.hotelName }}</option>
+
+  <option *ngFor="let item of hotelBrandNameList">
+    {{ item.brandDataName }}
+  </option>
+</select>
+-->
+<div style="text-align: center;">
+
+  
+  <label for="dropdown">Select Brand Name : </label>
+  <select id="dropdown" [(ngModel)]="selectedValue" (change)="onSelect()">
+
+    <option *ngFor="let brand of brandList">{{ brand }}</option>
+  </select>
+  <br /><br /><br />
+
+</div>
+
+
+
+<div id="map"></div>
+
+  <!--
+
+<label for="dropdown">Select Brand Name : </label>
+<select id="dropdown" [(ngModel)]="selectedValue">
+  <option *ngFor="let item of hotelDataList" [value]="item.id">{{ item.brandDataName }}
+
+    {{ item.brandDataName }}</option>
+ 
+</select>-->
+
+
+
+
+  <!--<label for="dropdown">Select Brand Name : </label>
+
+ Dropdown to display unique brand names 
+<select [(ngModel)]="selectedValue">
+  <option *ngFor="let brand of hotelBrandNameList" [value]="brand">
+    {{brand }}
+
+
+</select>-->
+
+
+
+

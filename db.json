@@ -1,0 +1,18 @@
+{
+   
+    "hotelData":  [
+
+        { "id": 1, "hotelName": "New York Times Square", "lat":40.758541 , "long": -73.988838 , "brandName": "Avid"},
+        { "id": 2, "hotelName": "Times Square", "lat": 40.761212, "long": -73.98651 , "brandName": "Avid"},
+        {"id": 3, "hotelName": "Taj Mahal", "lat": 40.76217219, "long": -73.9830559, "brandName": "Holiday Inn"},
+        {"id": 4, "hotelName": "WestenPark", "lat": 40.755131, "long": -73.99134 , "brandName": "Holiday Inn"},
+        {"id": 5, "hotelName": "Avenue Hotel", "lat": 40.758541, "long": -84.114418, "brandName": "Kimpton"},
+        {"id": 6, "hotelName": "City Barclay", "lat": 40.75544, "long": -73.973728, "brandName": "Kimpton"},
+        {"id": 7, "hotelName": "AtlantaCity", "lat": 40.75544, "long": -73.973728, "brandName": "Kimpton"}
+
+        ]
+  }
+  
+
+
+    
