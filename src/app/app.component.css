@@ -2,3 +2,17 @@
     height: 500px; /* Adjust height as needed */
     width: 100%;
   }
+  .dropdown-label {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #dropdowndiv
+  {
+    padding-top: 20px;
+    text-align: center;
+  }
+  #dropdown{
+    font-size: 20px;
+
+  }

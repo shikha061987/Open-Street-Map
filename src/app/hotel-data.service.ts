@@ -10,7 +10,6 @@ export class HotelDataService {
 
   private apiUrl = 'http://localhost:3000/hotelData';  // API endpoint
 
-
   constructor(private http: HttpClient) { }
 
   getHotelData(): Observable<Hotel> {
@@ -18,7 +17,4 @@ export class HotelDataService {
         return this.http.get<Hotel>(this.apiUrl);
         
   }
-
-
-
 }

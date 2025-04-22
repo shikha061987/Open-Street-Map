@@ -1,5 +1,4 @@
 {
-   
     "hotelData":  [
 
         { "id": 1, "hotelName": "New York Times Square", "lat":40.758541 , "long": -73.988838 , "brandName": "Avid"},
@@ -9,8 +8,7 @@
         {"id": 5, "hotelName": "Avenue Hotel", "lat": 40.758541, "long": -84.114418, "brandName": "Kimpton"},
         {"id": 6, "hotelName": "City Barclay", "lat": 40.75544, "long": -73.973728, "brandName": "Kimpton"},
         {"id": 7, "hotelName": "AtlantaCity", "lat": 40.75544, "long": -73.973728, "brandName": "Kimpton"}
-
-        ]
+     ]
   }
   
 

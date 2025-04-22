@@ -7,13 +7,14 @@
   </option>
 </select>
 -->
-<div style="text-align: center;">
+<div id="dropdowndiv">
 
-  
-  <label for="dropdown">Select Brand Name : </label>
+  <label class="dropdown-label">Select Brand Name :</label>
+  <!-- <label  for="dropdown">Select Brand Name : </label>-->
+
   <select id="dropdown" [(ngModel)]="selectedValue" (change)="onSelect()">
 
-    <option *ngFor="let brand of brandList">{{ brand }}</option>
+  <option *ngFor="let brand of brandList">{{ brand }}</option>
   </select>
   <br /><br /><br />
 
@@ -23,7 +24,7 @@
 
 <div id="map"></div>
 
-  <!--
+<!--
 
 <label for="dropdown">Select Brand Name : </label>
 <select id="dropdown" [(ngModel)]="selectedValue">
@@ -36,7 +37,7 @@
 
 
 
-  <!--<label for="dropdown">Select Brand Name : </label>
+<!--<label for="dropdown">Select Brand Name : </label>
 
  Dropdown to display unique brand names 
 <select [(ngModel)]="selectedValue">
@@ -45,7 +46,3 @@
 
 
 </select>-->
-
-
-
-
